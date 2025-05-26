@@ -1,26 +1,34 @@
 # Python Portfolio Projects
 
-This folder contains a collection of hands-on Python projects built using Jupyter Notebooks as part of my learning journey in data analytics and automation, learning from the Analyst Builder platform. Each project applies core Python skills to solve real-world problems or automate common tasks.
+This folder contains a collection of beginner-to-intermediate Python projects I completed while studying with Analyst Builder’s Python for Beginners course. I added custom logic and structure to each one as I gained confidence.
 
-## Projects
+These projects showcase core Python fundamentals like file manipulation, automation, web scraping, loops, functions, conditionals, and working with libraries like `pandas`, `re`, and `BeautifulSoup`.
 
-### Project: Automated Web Scraper
-Uses `requests`, `BeautifulSoup`, and `pandas` to extract cryptocurrency pricing data from a live website and store it in a DataFrame for analysis.
+## 🔧 Projects
 
-### Project: Automatic File Sorter
-Sorts files from a target directory into subfolders based on file type (e.g., `.pdf`, `.jpg`, `.xlsx`) using `os`, `shutil`, and custom logic.
+### 1. **Automated Web Scraper**
+- Uses `Selenium` and `BeautifulSoup` to automate pulling Bitcoin prices from CoinMarketCap
+- Scrapes the rendered price, parses the HTML, and stores results in a pandas DataFrame
 
-### Project: Calculator
-A basic command-line calculator that supports addition, subtraction, multiplication, and division, using input validation and user-friendly design.
+### 2. **Automatic File Sorter**
+- Script that automatically organizes files into folders based on file type
+- Uses `os`, `shutil`, and control flow to check file extensions and move them to appropriate directories
 
-### Project: Unit of Measurement Converter
-Converts between common units (temperature, length, weight, etc.) using custom conversion functions and a clean user prompt interface.
+### 3. **Calculator**
+- Simple calculator built with Python functions and input validation
+- Supports addition, subtraction, multiplication, and division with error handling
 
-### Project: Web Scraping + Regex + Pandas
-Scrapes data from a test website using `requests` and `BeautifulSoup`, then applies `re` (regex) and `pandas` to clean, transform, and analyze the data.
+### 4. **Unit of Measurement Converter**
+- Converts values between imperial and metric units (e.g., inches to centimeters, pounds to kilograms)
+- Includes a custom menu interface and `while` loop logic for continued conversion
+
+### 5. **Web Scraping with Regex and Pandas**
+- Scrapes Dr. King’s “I Have a Dream” speech from a website
+- Cleans the text, applies regex logic, and analyzes word frequency using `pandas`
 
 ---
 
-These projects reflect my foundational understanding of Python syntax, scripting, file handling, web scraping, and data manipulation.
+## 📁 Purpose
 
-Each project can be opened using [Jupyter Notebook](https://jupyter.org/).
+Each project was a step in my Python learning journey. These files represent not just skill-building exercises but also a growing ability to solve real-world tasks with code. You can find my full portfolio at [jrwportfolio.com](https://www.jrwportfolio.com).
+
