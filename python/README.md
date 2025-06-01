@@ -4,28 +4,28 @@ This folder contains a collection of beginner-to-intermediate Python projects I 
 These projects showcase core Python fundamentals like file manipulation, automation, web scraping, loops, functions, conditionals, and working with libraries like pandas, re, and BeautifulSoup.
 
 Projects  
-0. Dynamic Parole Recommendation Simulator  
+- Dynamic Parole Recommendation Simulator  
 Simulates parole recommendation outcomes based on static versus dynamic factors, including age, sentence length, program participation, disciplinary actions, and visitation.  
 Uses pandas and matplotlib to model how eligibility changes with more behaviorally informed criteria.  
 Built in response to a Recidiviz job listing to demonstrate policy modeling and analysis with real-world application.
 
-1. Automated Web Scraper  
+- Automated Web Scraper  
 Uses Selenium and BeautifulSoup to automate pulling Bitcoin prices from CoinMarketCap  
 Scrapes the rendered price, parses the HTML, and stores results in a pandas DataFrame
 
-2. Automatic File Sorter  
+- Automatic File Sorter  
 Script that automatically organizes files into folders based on file type  
 Uses os, shutil, and control flow to check file extensions and move them to appropriate directories
 
-3. Calculator  
+- Calculator  
 Simple calculator built with Python functions and input validation  
 Supports addition, subtraction, multiplication, and division with error handling
 
-4. Unit of Measurement Converter  
+- Unit of Measurement Converter  
 Converts values between imperial and metric units (e.g., inches to centimeters, pounds to kilograms)  
 Includes a custom menu interface and while loop logic for continued conversion
 
-5. Web Scraping with Regex and Pandas  
+- Web Scraping with Regex and Pandas  
 Scrapes Dr. King’s “I Have a Dream” speech from a website  
 Cleans the text, applies regex logic, and analyzes word frequency using pandas
 
